@@ -1,0 +1,193 @@
+%-------------------------
+% Resume in LaTeX — auto-generated from resume.yaml
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+
+% ---------- PAGE STYLE ----------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% ---------- MARGINS ----------
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% ---------- COLORS ----------
+\definecolor{accent}{HTML}{2b6cb0}
+\definecolor{darktext}{HTML}{1a1a1a}
+\definecolor{lighttext}{HTML}{4a4a4a}
+
+% ---------- SECTION FORMATTING ----------
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\bfseries\color{accent}
+}{}{0em}{}[\color{accent}\titlerule\vspace{-5pt}]
+
+% ---------- CUSTOM COMMANDS ----------
+\newcommand{\resumeItem}[1]{
+  \item\small\color{darktext}{#1\vspace{-2pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\color{darktext}#1} & \small\color{lighttext}#2 \\
+      \textit{\small\color{lighttext}#3} & \textit{\small\color{lighttext}#4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small\textbf{\color{darktext}#1} & \small\color{lighttext}#2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand{\resumePubItem}[1]{
+  \vspace{-2pt}\item\small\color{darktext}{#1\vspace{-2pt}}
+}
+
+\newcommand{\resumeEduSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\color{darktext}#1} & \small\color{lighttext}#2 \\
+      \textit{\small\color{lighttext}#3} & \textit{\small\color{lighttext}#4} \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\begin{document}
+
+% ---------- HEADER ----------
+\begin{center}
+  {\Huge\scshape\color{darktext} Hayk Manukyan} \\[6pt]
+  \small
+  \faIcon{phone} \, +4915223636116 \quad\faIcon{envelope} \, \href{mailto:haik.manukyan@gmail.com}{haik.manukyan@gmail.com} \quad\faIcon{linkedin} \, \href{https://www.linkedin.com/in/hayk-manukyan-4aab0962/}{linkedin.com/in/hayk-manukyan-4aab0962} \quad\faIcon{github} \, \href{https://github.com/haikmanukyan}{github.com/haikmanukyan}
+\end{center}
+
+% ---------- SUMMARY ----------
+\section{Summary}
+  \small\color{darktext}{
+    Experienced ML Scientist and Data Scientist with 7+ years of expertise in computer vision, deep learning, and distributed machine learning. Proficient in developing production-grade AI solutions including image generation, face detection, and generative models. Strong background in model training infrastructure, team leadership, and collaborative research environments.
+  }
+
+% ---------- EXPERIENCE ----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Senior ML Scientist}{2022 -- Present}
+      {Picsart}{}
+      \resumeItemListStart
+        \resumeItem{Development of a model training framework for large scale (multi-node) distributed trainings on slurm clusters, intended for a collaborative research and development environment. Experiment tracking, model versioning and evaluation are implemented using mlflow.}
+        \resumeItem{Organized team-level collaboration within the framework of the above solution, including code review, documentation and best practices for reproducibility. Managed a small team of engineers for the development and maintenance of the above solution.}
+        \resumeItem{Image outpainting (production)}
+        \resumeItem{Text-guided image inpainting, layout and text to image generation (research and production optimization)}
+        \resumeItem{Text-guided face to video generation (research)}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Data Scientist}{2017 -- 2019}
+      {Picsart}{}
+      \resumeItemListStart
+        \resumeItem{Complete solution for face detection, tracking and keypoint detection optimized for mobile devices}
+        \resumeItem{Facial filters, effects (Face Swap, Face Morphing, etc.) and AR stickers based on the above solution}
+        \resumeItem{Assembly level kernel optimization for image processing for mobile devices (used for style transfer).}
+        \resumeItem{Image classification and content based clustering}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+% ---------- EDUCATION ----------
+\section{Education}
+  \resumeSubHeadingListStart
+
+    \resumeEduSubheading
+      {Master of Science in Computer Science}{2018 -- 2022}
+      {Rheinische Friedrich-Wilhelms-Universität Bonn}{}
+
+    \resumeEduSubheading
+      {Bachelor of Science in Applied Mathematics and Informatics}{2013 -- 2017}
+      {State Engineering University of Armenia}{}
+
+  \resumeSubHeadingListEnd
+
+% ---------- PUBLICATIONS ----------
+\section{Publications}
+  \begin{itemize}[leftmargin=0.2in]
+
+    \resumePubItem{Hayk Manukyan, Andranik Sargsyan, Barsegh Atanyan, Zhangyang Wang, Shant Navasardyan, Humphrey Shi. \href{https://arxiv.org/abs/2312.14091}{\textbf{HD-Painter: High-Resolution and Prompt-Faithful Text-Guided Image Inpainting with Diffusion Models}}, \emph{ICLR}, 2025}
+
+    \resumePubItem{Marianna Ohanyan, Hayk Manukyan, Zhangyang Wang, Shant Navasardyan, Humphrey Shi. \href{https://arxiv.org/abs/2406.04032}{\textbf{Zero-Painter: Training-Free Layout Control for Text-to-Image Synthesis.}}, \emph{CVPR}, 2024}
+
+    \resumePubItem{Jiayi Guo, Hayk Manukyan, Chenyu Yang, Chaofei Wang, Levon Khachatryan, Shant Navasardyan, Shiji Song, Humphrey Shi, Gao Huang. \href{https://ieeexplore.ieee.org/document/10310257}{\textbf{FaceCLIP: Facial Image-to-Video Translation via a Brief Text Description.}}, \emph{IEEE Transactions on Circuits and Systems for Video Technology}, 2024}
+
+  \end{itemize}
+
+% ---------- PROJECTS ----------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\textbf{HD-Painter diffusers community pipeline}}{}
+      \resumeItemListStart
+        \resumeItem{A diffusers implementation of our paper "HD-Painter High-Resolution and Prompt-Faithful Text-Guided Image Inpainting with Diffusion Models".}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Animating Humans with Recurrent Neural Networks (master thesis)}}{}
+      \resumeItemListStart
+        \resumeItem{Controllable, interactive human animation using recurrent neural networks.}
+        \resumeItem{Supervisors: Prof. Dr. Juergen Gall, Dr. Nils Goerke, Julian Tanke}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Detecting And Tracking A Quadcopter Visually (lab project)}}{}
+      \resumeItemListStart
+        \resumeItem{Optimzed and fast mixed CV and AI solution for detecting and tracking a quadcopter in video sequences in real time.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+% ---------- SKILLS ----------
+\section{Technical Skills}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      \textbf{Languages:}{ python, C++, C\#, bash} \\
+      \textbf{ML \& AI:}{ opencv, tensorflow, pytorch, pandas, numpy, scipy, mlflow, diffusion, GenAI} \\
+      \textbf{Data \& Databases:}{ postgreSQL} \\
+      \textbf{Tools \& Platforms:}{ git, docker, slurm, linux, LaTeX}
+    }}
+  \end{itemize}
+
+
+\end{document}

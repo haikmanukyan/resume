@@ -1,0 +1,74 @@
+name: Hayk Manukyan
+phone: 4915223636116
+email: haik.manukyan@gmail.com
+github: https://github.com/haikmanukyan
+linkedin: https://www.linkedin.com/in/hayk-manukyan-4aab0962/
+
+summary: Experienced ML Scientist and Data Scientist with 7+ years of expertise in computer vision, deep learning, and distributed machine learning. Proficient in developing production-grade AI solutions including image generation, face detection, and generative models. Strong background in model training infrastructure, team leadership, and collaborative research environments.
+
+employment:
+- name: Picsart
+  title: Senior ML Scientist
+  start: 2022
+  end: present
+  job_description:
+  - Development of a model training framework for large scale (multi-node) distributed trainings on slurm clusters, intended for a collaborative research and development environment. Experiment tracking, model versioning and evaluation are implemented using mlflow.
+  - Organized team-level collaboration within the framework of the above solution, including code review, documentation and best practices for reproducibility. Managed a small team of engineers for the development and maintenance of the above solution.
+  - Image outpainting (production)
+  - Text-guided image inpainting, layout and text to image generation (research and production optimization)
+  - Text-guided face to video generation (research)
+
+- name: Picsart
+  title: Data Scientist
+  start: 2017
+  end: 2019
+  job_description:
+  - Complete solution for face detection, tracking and keypoint detection optimized for mobile devices
+  - Facial filters, effects (Face Swap, Face Morphing, etc.) and AR stickers based on the above solution
+  - Assembly level kernel optimization for image processing for mobile devices (used for style transfer).
+  - Image classification and content based clustering
+
+education:
+- name: Rheinische Friedrich-Wilhelms-Universität Bonn
+  faculty: Computer Science
+  degree: Master of Science
+  start: 2018
+  end: 2022
+
+- name: State Engineering University of Armenia
+  degree: Bachelor of Science
+  faculty: Applied Mathematics and Informatics
+  start: 2013
+  end: 2017
+
+publications:
+- title: "HD-Painter: High-Resolution and Prompt-Faithful Text-Guided Image Inpainting with Diffusion Models"
+  authors: Hayk Manukyan, Andranik Sargsyan, Barsegh Atanyan, Zhangyang Wang, Shant Navasardyan, Humphrey Shi
+  url: https://arxiv.org/abs/2312.14091
+  journal: ICLR
+  year: 2025
+
+- title: "Zero-Painter: Training-Free Layout Control for Text-to-Image Synthesis."
+  authors: Marianna Ohanyan, Hayk Manukyan, Zhangyang Wang, Shant Navasardyan, Humphrey Shi
+  journal: CVPR
+  url: https://arxiv.org/abs/2406.04032
+  year: 2024
+
+- title: "FaceCLIP: Facial Image-to-Video Translation via a Brief Text Description."
+  authors: Jiayi Guo, Hayk Manukyan, Chenyu Yang, Chaofei Wang, Levon Khachatryan, Shant Navasardyan, Shiji Song, Humphrey Shi, Gao Huang
+  journal: IEEE Transactions on Circuits and Systems for Video Technology
+  url: https://ieeexplore.ieee.org/document/10310257
+  year: 2024
+
+projects:
+- name: HD-Painter diffusers community pipeline
+  description: A diffusers implementation of our paper "HD-Painter High-Resolution and Prompt-Faithful Text-Guided Image Inpainting with Diffusion Models".
+- name: Animating Humans with Recurrent Neural Networks (master thesis)
+  authors: Hayk Manukyan
+  supervisors: Prof. Dr. Juergen Gall, Dr. Nils Goerke, Julian Tanke
+  description: Controllable, interactive human animation using recurrent neural networks.
+- name: Detecting And Tracking A Quadcopter Visually (lab project)
+  authors: Hayk Manukyan and Sebastian Handke
+  description: Optimzed and fast mixed CV and AI solution for detecting and tracking a quadcopter in video sequences in real time.
+
+tags: [ python, C++, C#, postgreSQL, opencv, tensorflow, pytorch, pandas, numpy, scipy, mlflow, git, docker, slurm, linux, bash, diffusion, GenAI, LaTeX ]
