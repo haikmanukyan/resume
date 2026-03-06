@@ -10,6 +10,8 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+    container:
+      image: texlive/texlive
     steps:
     - uses: actions/checkout@v4
       with:
@@ -33,11 +35,6 @@ jobs:
 
     - name: Generate resume source
       run: python generate.py
-
-    - name: Install TeX Live
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y texlive-latex-base texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra latexmk
 
     - name: Compile resume PDF
       run: pdflatex resume.tex
